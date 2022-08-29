@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+   
+   
+   }
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body .video {
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+  
+}
+
+
+
+.master {
+ position: relative;
+ z-index: 1;
+  
+}
+
+.container {
+    width: 500px;
+    height: 350px;
+    background-color: rgba(10, 10, 10, 0.767);
+    border-radius: 15px 15px;
+    margin-right: 20px;
+    margin-top: 65px;
+    text-align: center;
+    float: right;
+   
+}
+
+.container img {
+    width: 280px;
+    height: 90px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.container2 {
+  
+    width: 500px;
+    height: 350px;
+    background-color: rgba(6, 6, 6, 0.631);
+    border-radius: 15px 15px;
+    margin-left: 20px;
+    margin-top: 65px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 30px;
+    height: 14px;
+    border: 2px solid #fff;
+    margin: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.bar:hover {
+    background-color: #fff;
+    width: 40px;
+}
+
+.slides input {
+    width: 5px;
+   display: none;
+    
+}
+
+.slides  {
+    display: flex;
+    width: 700%;
+    height: 100%;
+}
+
+.slide {
+   display: flex;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+}
+
+
+
+.slide img {
+    margin-top: 35px;
+    
+   
+}
+
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -24.5%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -65%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -88%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -108%;
+}
+
+
+
+input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 40px;
+    width: 40%;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(10, 10, 10);
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 40px;
+    border-radius: 15px 15px;
+    border-color:  #4cf8db ;
+}
+
+
+
+ .redes img {
+    width: 120px;
+    height: 30px;
+    margin-top: 6px;
+    border-radius: 30px 30px;
+}
+   
+input.submite {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(5, 226, 167);
+    background-color: rgb(7, 7, 7);
+    border: 2px solid #4cf8db ;
+    width: 25%;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 25px 25px;
+    margin-top: -10px;
+ }
+input:hover {
+   text-transform: uppercase;
+   cursor: pointer;
+   background-size: 55px;
+}
+ 
+ input.submite:hover {
+    background-color: rgb(4, 188, 155);
+    cursor: pointer;
+    border-color: rgb(7, 250, 189);
+    color: #070707;
+}
+
+ .container:hover {
+    background-color: rgba(6, 6, 6, 0.883);
+
+ }
+
+ .container2:hover {
+    background-color: rgba(6, 6, 6, 0.883);
+ }
+
+
+
